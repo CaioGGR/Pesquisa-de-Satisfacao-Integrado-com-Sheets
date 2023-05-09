@@ -1,0 +1,13 @@
+function doPost(e) {
+  var sheet = SpreadsheetApp.openById('1mvKRkrbO9FHoZZ04dJONCkcL0IdjzuMfwBocZfMCdcU').getSheetByName('teste');
+  var row = [new Date()];
+
+  row.push(e.parameter.resolucao);
+  row.push(e.parameter.local);
+  row.push(e.parameter.avaliacao_resolucao);
+  row.push(e.parameter.avaliacao_atendimento);
+  row.push(e.parameter.email);
+  row.push(e.parameter.comentarios);
+  sheet.appendRow(row);
+  return ContentService.createTextOutput('Registro enviado com sucesso.');
+}
