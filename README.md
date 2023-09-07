@@ -1,6 +1,6 @@
 # Pesquisa de Satisfação com Integração com o Google Sheets
 
-Este repositório contém um script em Google Apps Script que sincroniza a informação que foi enviada pelo form a uma plainha do Google Sheets. Junamente ao código HTML/CSS com o design da página
+Este repositório contém um script em Google Apps Script que sincroniza a informação que foi enviada pelo form a uma plainha do Google Sheets. Juntamente ao código HTML/CSS com o design da página
 
 ## Como funciona
 
